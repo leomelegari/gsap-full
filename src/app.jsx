@@ -6,14 +6,14 @@ import Cocktails from "./components/cocktails";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
+//  apenas para upload
+
 const App = () => {
   return (
     <main>
       <Navbar />
       <Hero />
       <Cocktails />
-
-      
     </main>
   );
 };
