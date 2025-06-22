@@ -18,15 +18,15 @@ const Navbar = () => {
       { backgroundColor: "transparent" },
       {
         backgroundColor: "#00000050", // Change to a semi-transparent black
-        backgroundFilter: "blur(10px)",
-        durantion: 1,
+        backdropFilter: "blur(5px)",
+        duration: 1,
         ease: "power1.inOut",
       },
     );
   }, []);
 
   return (
-    <nav>
+    <nav className="">
       <div>
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="Velvet Pour" />
